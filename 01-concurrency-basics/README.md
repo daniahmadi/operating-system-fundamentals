@@ -96,3 +96,45 @@ These are simplified scheduling examples, not guarantees about a particular oper
 ---
 
 *Educational notes prepared as part of studying Operating System Fundamentals.*
+
+# Exercises: Processes, Threads, and Concurrency
+
+## Exercise 1: Identify the Concepts
+
+A user opens a web browser and a music player.
+
+1. How many application processes might be created?
+2. Can each process contain multiple threads?
+3. Does running both applications mean they are always executing in parallel?
+
+## Exercise 2: Concurrency or Parallelism?
+
+For each scenario, identify whether it demonstrates concurrency, parallelism, or potentially both.
+
+1. A single CPU core switches between two runnable tasks.
+2. Two independent CPU-bound threads execute on two different CPU cores.
+3. Two threads alternate between computation and waiting for network responses.
+
+## Exercise 3: Calculate Completion Time
+
+Two independent CPU-bound tasks require 6 ms and 4 ms of CPU time, respectively.
+
+Assume no scheduling overhead.
+
+1. What is the total completion time when both tasks run sequentially on one core?
+2. What is the total completion time when they start simultaneously on two separate cores?
+3. Why can the second scenario finish sooner?
+
+## Exercise 4: Explain Shared Resources
+
+Explain two differences between processes and threads, focusing on memory and resource sharing.
+
+## Exercise 5: Practical Investigation
+
+Open Task Manager on Windows or an equivalent system monitor on your operating system.
+
+1. Find a running application.
+2. Observe its process information.
+3. Investigate whether the application uses multiple threads.
+
+Write down your observations and explain what they demonstrate about processes and threads.
